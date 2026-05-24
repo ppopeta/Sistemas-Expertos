@@ -1,3 +1,6 @@
+% --- HECHOS: TAXONOMÍA BASE ---
+% (Basado en la imagen del proyecto y el documento de la FAO)
+
 % CABRA
 padre_taxonomico(cabra_domestica, capra).
 padre_taxonomico(capra, bovidae).
