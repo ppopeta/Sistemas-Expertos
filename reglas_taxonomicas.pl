@@ -152,7 +152,7 @@ info(Animal) :-
 % Uso: ?- menu_taxonomico.
 % ============================================================
 
-help :-
+menu_taxonomico :-
     nl,
     write('======================================================'), nl,
     write('          CONSULTAS TAXONOMICAS DISPONIBLES           '), nl,
