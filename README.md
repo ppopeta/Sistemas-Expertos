@@ -4,21 +4,20 @@
 
 Hecho por:
 ### Glenn Alexander Ward Ante
-### Bibiana Sofía Cortés montilla
+### Bibiana Sofía Cortés Montilla
 
 ---
 
 ## Requisitos
 
 - Tener instalado [SWI-Prolog]
-- Los cuatro archivos deben estar en la misma carpeta:
+- Los tres archivos deben estar en la misma carpeta:
 
 ```
 sistemas-expertos/
  ├── main.pl
  ├── hechos_taxonomicos.pl
- ├── reglas_identificacion.pl
- └── reglas_taxonomicas.pl
+ └── reglas_identificacion.pl
 ```
 
 ---
@@ -69,7 +68,6 @@ Al iniciar, el sistema mostrara un mensaje de bienvenida y comenzara a hacer pre
 > **Importante:** el punto al final es obligatorio, es la forma en que Prolog detecta que terminaste de escribir.
 
 ---
-
 ## Consultas taxonomicas 
 
 
@@ -89,8 +87,6 @@ Funciones disponibles:
   `?- info(conejo).`
 - Mostrar menu de consultas:
   `?- menu_taxonomico.`
-
----
 
 ## Ejemplo de uso del sistema experto
 
@@ -128,20 +124,79 @@ Funciones disponibles:
 ```
 
 ---
-
+ 
 ## Animales que el sistema puede identificar
-
-| Categoria | Animales |
-|---|---|
-| Mamiferos | Gato, Conejo, Cuy, Jabali, Cabra, Oveja, Hipopotamo |
-| Aves | Loro, Paloma, Pavo, Pato, Gallina, Avestruz |
-| Anfibios | Rana, Ajolote, Sapo, Hipopotamo |
-| Reptiles | Lagarto, Tortuga, Iguana, Serpiente |
-| Insectos | Abeja, Mariposa, Hormiga |
-| Moluscos | Pulpo, Calamar, Caracol, Almeja |
-
+ 
+### Mamiferos (7)
+ 
+| Animal | Nombre cientifico | Tamano | Piel | Caracteristica clave |
+|---|---|---|---|---|
+| Gato | Felis catus | Pequeno | Pelaje | No es roedor |
+| Conejo | Oryctolagus cuniculus | Pequeno | Pelaje | Roedor con orejas largas |
+| Cuy | Cavia porcellus | Pequeno | Pelaje | Roedor sin orejas largas |
+| Jabali | Sus scrofa | Mediano | Pelaje | — |
+| Cabra | Capra aegagrus hircus | Grande | Pelaje | Tiene cuernos |
+| Oveja | Ovis aries | Grande | Pelaje | Sin cuernos |
+| Hipopotamo | Hippopotamus amphibius | Grande | Humeda | — |
+ 
+### Aves (6)
+ 
+| Animal | Nombre cientifico | Tamano | Caracteristica clave |
+|---|---|---|---|
+| Loro | Amazona sp. | Pequeno | Puede hablar o imitar sonidos |
+| Paloma | Columba livia | Pequeno | No habla |
+| Pavo | Meleagris gallopavo | Mediano | Plumaje exotico o llamativo |
+| Pato | Anas platyrhynchos | Mediano | Nada habitualmente |
+| Gallina | Gallus gallus domesticus | Mediano | No nada, sin plumaje exotico |
+| Avestruz | Struthio camelus | Grande | — |
+ 
+### Anfibios (3)
+ 
+| Animal | Nombre cientifico | Tamano | Caracteristica clave |
+|---|---|---|---|
+| Rana | Rana temporaria | Pequeno | Tiene veneno letal |
+| Ajolote | Ambystoma mexicanum | Pequeno | Sin veneno letal |
+| Sapo | Bufo bufo | Mediano | — |
+ 
+### Reptiles (4)
+ 
+| Animal | Nombre cientifico | Tamano | Caracteristica clave |
+|---|---|---|---|
+| Lagarto | Lacerta agilis | Pequeno | — |
+| Tortuga | Testudo graeca | Mediano | Tiene caparazon |
+| Iguana | Iguana iguana | Mediano | Sin caparazon |
+| Serpiente | Serpentes sp. | Grande | — |
+ 
+### Insectos (3)
+ 
+| Animal | Nombre cientifico | Caracteristica clave |
+|---|---|---|
+| Abeja | Apis mellifera | Vuela y produce miel |
+| Mariposa | Lepidoptera sp. | Vuela, no produce miel |
+| Hormiga | Formica rufa | No vuela, forma colonias |
+ 
+### Moluscos (4)
+ 
+| Animal | Nombre cientifico | Caracteristica clave |
+|---|---|---|
+| Pulpo | Octopus vulgaris | Tiene 8 extremidades |
+| Calamar | Loligo vulgaris | Tiene extremidades, no son 8 |
+| Caracol | Helix pomatia | Sin extremidades, concha enrollada |
+| Almeja | Ruditapes philippinarum | Sin extremidades, sin concha enrollada |
+ 
 ---
-
+ 
+## Volver a ejecutar
+ 
+Para identificar otro animal sin cerrar SWI-Prolog, simplemente escribe de nuevo:
+ 
+```prolog
+?- iniciar.
+```
+ 
+El sistema limpia automaticamente las respuestas anteriores al iniciar.
+ 
+---
 ## Volver a ejecutar
 
 Para identificar otro animal sin cerrar SWI-Prolog, simplemente escribe de nuevo:
