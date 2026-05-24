@@ -1,15 +1,15 @@
-Clasificación
+# Clasificación
 ## Categorías de animales 
 <details>
-
 <summary> Mamiferos (6)</summary>
 
 - Cabra 
-- Cerdo
+- Jabalí
 - Conejo
 - Cuy   
-- oveja
+- Oveja
 - Gato
+- Hipopótamo
 
 </details>
 
@@ -19,9 +19,9 @@ Clasificación
 - Avestruz
 - Gallina
 - Pato
+- Paloma
 - Pavo
 - Loro
-- Paloma
 </details>
 
 <details>
@@ -35,10 +35,10 @@ Clasificación
 <details>
 <summary> Reptiles (4)</summary>
 
-- Anaconda
+- Serpiente
 - Tortuga
 - Iguana
-- Lagartija
+- Lagarto
 </details>
 
 <details>
@@ -58,41 +58,56 @@ Clasificación
 - Hormiga
 </details>
 
+---
 
+## Preguntas 
+1. ¿Es vertebrado?
+    - SI: ¿De qué tamaño es?
+        - Pequeño: ¿Tipo de piel?
+            - Pelaje: ¿Es roedor?
+                - NO: `Gato`
+                - SI: ¿Tiene orejas largas?
+                    - SI: `Conejo`
+                    - NO: `Cuy`
+            - Plumas: ¿Habla?
+                - SI: `Loro`
+                - NO: `Paloma`
+            - Húmeda: ¿Tiene veneno letal?
+                - SI: `Rana`
+                - NO: `Ajolote`
+            - Escamas: `Lagarto`
 
-## Todas las Preguntas 
+        - Mediano: ¿Tipo de piel?
+            - Pelaje: `Jabalí`
+            - Plumas: ¿Tiene plumaje exótico?
+                - SI: `Pavo`
+                - NO: ¿Nada?
+                    - SI: `Pato`
+                    - NO: `Gallina`
+            - Húmeda: `Sapo`
+            - Escamas: ¿Tiene caparazón?
+                - SI: `Tortuga`
+                - NO: `Iguana`
 
-1. **¿Es un animal vertebrado?** (Pregunta inicial)
+        - Grande: ¿Tipo de piel?
+            - Pelaje: ¿Tiene cuernos?
+                - SI: `Cabra`
+                - NO: `Oveja`
+            - Plumas: `Avestruz`
+            - Húmeda: `Hipopótamo`
+            - Escamas: `Serpiente`
 
-    Si lo es, se hacen 2 preguntas obligatorias:   
-    2. **De que tamaño es tu animal (pequeño, mediano, grande)**
-
-    3.**¿Que tipo de piel tiene tu animal (pelaje, plumaje, piel humeda, escamas)?**, esta pregunta ayuda a separar segun el tipo de animal que es, si es ave, mamifero, reptil o anfibio. 
-    
-    Las siguientes preguntas ya dependen de la combinacion de la respuesta de la segunda y la tercera. 
-
-    - ¿Tiene cuernos? 
-    - ¿Es Roedor? 
-    - ¿Tiene orejas largas? 
-    - ¿Vuela alto? 
-    - ¿Es un animal de ciudad? 
-    - ¿Tiene un plumaje Exotico? 
-    - ¿Habla? 
-    - ¿Es venenoso? 
-    - ¿Tiene caparazón? 
-
-    Si no es vertebrado: Se hace, 2 preguntas obligatorias: 
-
-    2. **¿Los encuentras usualmente en agua o en tierra?**
- 
-    3. **¿Es un insecto?**
-
-    Las siguientes preguntas ya dependen de la combinacion de la respuesta de la segunda y la tercera.
-
-    - ¿Tiene 8 Extremidades? 
-    - ¿Puede nadar? 
-    - ¿Vuelan? 
-    - ¿Producen miel?  
-
-Hay animales a los que podemos llegar con 3 preguntas unicamente, como el caracol, el cerdo, o el avestruz, y el animal con el maximo de preguntas para encontrarlo es el loro y el pato que necesita 6 preguntas para ser encontrado.  
-----
+    - NO: ¿Dónde lo encuentras usualmente?
+        - Tierra: ¿Es un insecto?
+            - SI: ¿Vuela?
+                - SI: ¿Produce miel?
+                    - SI: `Abeja`
+                    - NO: `Mariposa`
+                - NO: `Hormiga`
+            - NO: ¿Tiene tentáculos?
+                - SI: ¿Tiene 8 extremidades?
+                    - SI: `Pulpo`
+                    - NO: `Calamar`
+                - NO: ¿Tiene una perla en su interior?
+                    - SI: `Caracol`
+                    - NO: `Almeja`
