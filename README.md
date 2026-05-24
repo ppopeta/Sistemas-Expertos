@@ -4,7 +4,7 @@
 
 Hecho por:
 ### Glenn Alexander Ward Ante
-### Bibiana Sofía Cortés montilla
+### Bibiana Sofía Cortés Montilla
 
 ---
 
