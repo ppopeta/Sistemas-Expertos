@@ -1,5 +1,7 @@
 # Sistema Experto: Clasificacion de Animales
 > Proyecto desarrollado en SWI-Prolog para identificar animales mediante preguntas y mostrar su clasificacion taxonomica completa.
+
+
 Hecho por:
 ### Glenn Alexander Ward Ante
 ### Bibiana Sofía Cortés montilla
@@ -36,10 +38,6 @@ sistemas-expertos/
 ### Opcion 2 — Terminal / Consola
 
 1. Abre una terminal y navega hasta la carpeta del proyecto:
-
-```bash
-cd ruta/a/tu/carpeta/sistemas-expertos
-```
 
 2. Inicia SWI-Prolog con el archivo principal:
 
