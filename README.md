@@ -68,8 +68,27 @@ Al iniciar, el sistema mostrara un mensaje de bienvenida y comenzara a hacer pre
 > **Importante:** el punto al final es obligatorio, es la forma en que Prolog detecta que terminaste de escribir.
 
 ---
+## Consultas taxonomicas 
 
-## Ejemplo de sesion
+
+Funciones disponibles:
+
+- Verificar pertenencia a una categoria:
+  `?- pertenece(conejo, mammalia).`
+- Listar especies por categoria:
+  `?- listar_todas(aves).`
+- Ver jerarquia completa de una especie:
+  `?- jerarquia(sapo).`
+- Consultar categoria de una especie:
+  `?- categoria(conejo, X).`
+- Ver nombres comunes disponibles:
+  `?- todos.`
+- Ver informacion completa de un animal:
+  `?- info(conejo).`
+- Mostrar menu de consultas:
+  `?- menu_taxonomico.`
+
+## Ejemplo de uso del sistema experto
 
 ```
 === SISTEMA EXPERTO: CLASIFICACION DE ANIMALES ===
