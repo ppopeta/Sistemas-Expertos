@@ -84,10 +84,6 @@ pregunta(tiene_extremidades, '¿Tiene extremidades (tentaculos o patas)?        
 pregunta(ocho_extremidades,  '¿Tiene exactamente 8 extremidades?                         (si/no)').
 pregunta(concha_enrollada,   '¿Tiene una sola concha enrollada (como espiral)?           (si/no)').
 
-% ======================================================
-% REPORTE FINAL
-% ======================================================
-
 reporte_final(Animal) :-
     nl,
     write('======================================================'), nl,
@@ -96,7 +92,11 @@ reporte_final(Animal) :-
     write('  Animal: '), write(Animal), nl, nl,
     write('  Clasificacion taxonomica:'), nl,
     obtener_taxonomia(Animal, Linea),
-    imprimir_linea(Linea),
+    imprimir_linea(Linea),nl,
+    write('  Consumibles:'), nl,
+    consumible(Animal, carne,    VC), write('    Carne consumible    : '), write(VC), nl,
+    consumible(Animal, derivados, VD), write('    Derivados consumibles: '), write(VD), nl,
+    consumible(Animal, piel,     VP), write('    Piel consumible     : '), write(VP), nl,
     write('======================================================'), nl.
 
 imprimir_linea([]).

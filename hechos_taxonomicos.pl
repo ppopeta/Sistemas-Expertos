@@ -261,5 +261,4 @@ nombre_taxonomico(hormiga,         'Formica rufa                  (Especie)').
 obtener_taxonomia(Animal, [Animal | Resto]) :-
     padre_taxonomico(Animal, Padre), !,
     obtener_taxonomia(Padre, Resto).
-
 obtener_taxonomia(Taxon, [Taxon]).

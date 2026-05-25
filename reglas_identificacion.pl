@@ -173,3 +173,60 @@ identificar(almeja) :-
     tiene(insecto, no),
     tiene(tiene_extremidades, no),
     tiene(concha_enrollada, no).
+
+% ========== CONSUMIBLES ==========
+
+consumible(gato,      carne, no).
+consumible(gato,      derivados, no).
+consumible(gato,      piel, no).
+
+consumible(conejo,    carne, si).
+consumible(conejo,    derivados, no).
+consumible(conejo,    piel, si).
+
+consumible(cuy,       carne, si).
+consumible(cuy,       derivados, no).
+consumible(cuy,       piel, si).
+
+consumible(jabali,    carne, si).
+consumible(jabali,    derivados, no).
+consumible(jabali,    piel, si).
+
+consumible(cabra,     carne, si).
+consumible(cabra,     derivados, si).
+consumible(cabra,     piel, si).
+
+consumible(oveja,     carne, si).
+consumible(oveja,     derivados, si).
+consumible(oveja,     piel, si).
+
+consumible(hipopotamo, carne, no).
+consumible(hipopotamo, derivados, no).
+consumible(hipopotamo, piel, no).
+
+consumible(loro,      carne, no).
+consumible(loro,      derivados, no).
+consumible(loro,      piel, no).
+
+consumible(paloma,    carne, si).
+consumible(paloma,    derivados, no).
+consumible(paloma,    piel, no).
+
+consumible(pavo,      carne, si).
+consumible(pavo,      derivados, no).
+consumible(pavo,      piel, si).
+
+consumible(pato,      carne, si).
+consumible(pato,      derivados, si).
+consumible(pato,      piel, si).
+
+consumible(gallina,   carne, si).
+consumible(gallina,   derivados, si).
+consumible(gallina,   piel, no).
+
+consumible(avestruz,  carne, no).
+consumible(avestruz,  derivados, si).
+consumible(avestruz,  piel, si).
+
+
+
